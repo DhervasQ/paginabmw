@@ -5,6 +5,12 @@ body {
     list-style: none;
     text-decoration: none;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 
 .header__nav {
     position: fixed;
@@ -71,9 +77,9 @@ body {
 }
 
 .header__background {
-    padding-bottom: 60px;
-    max-width: 100%;
-    border: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .fa-search,
@@ -84,6 +90,7 @@ body {
 
 .title {
     margin-left: 40px;
+    
 }
 
 .title h1 {
@@ -91,7 +98,7 @@ body {
     text-transform: uppercase;
 }
 
-.title h2 {
+.title h3 {
     color: #fefefe;
     text-transform: uppercase;
 }
